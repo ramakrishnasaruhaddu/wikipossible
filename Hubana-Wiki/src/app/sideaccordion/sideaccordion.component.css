@@ -1,0 +1,68 @@
+/* plus glyph for showing collapsible panels */
+.panel-heading .accordion-plus-toggle:before {
+  font-family: FontAwesome;
+  content: "\f107";
+  float: right;
+
+}
+
+.panel-heading .accordion-plus-toggle.collapsed:before {
+  content: "\f105";
+
+}
+
+/* arrow glyph for showing collapsible panels */
+.panel-heading .accordion-arrow-toggle:before {
+  font-family: FontAwesome;
+  content: "\f105";
+  float: right;
+
+}
+
+.panel-heading .accordion-arrow-toggle.collapsed:before {
+  content: "\f105";
+
+
+}
+
+/* sets the link to the width of the entire panel title */
+.panel-title > a {
+  display: block;
+}
+.panel-default>.panel-heading{
+  background: transparent;
+  border: 0px;
+}
+.panel-default>.panel-heading:hover, .panel-default>.panel-heading:active, .panel-default>.panel-heading:focus{
+  background: rgba(45, 62, 80, .1);
+
+}
+.panel{
+  border-radius: 0px;
+  box-shadow: none;
+  border: 0px;
+}
+.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group{
+  border: 0px;
+  border-color: none;
+}
+.panel-body{
+  padding: 8px 0px 8px 40px;
+  text-decoration: none;
+
+}
+.panel-body a{
+
+  text-decoration: none;
+  color: #33475b;
+  font-size: 13px;
+}
+.panel-body:hover{
+  background: rgba(45, 62, 80, .1);
+}
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a{
+  text-decoration: none;
+}
+.panel-group{
+  margin-top: 10px;
+}

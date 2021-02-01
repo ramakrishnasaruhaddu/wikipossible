@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$default-font: 'Open Sans', sans-serif;
+
+// default colors
+// .theme-wrapper {
+//   // --cardColor: #fff;
+//   // --cardBackground: #000;
+//   // --buttonColor: #FFF;
+//   // --buttonBackground: #FFF;
+//   // --navColor: #FFF;
+//   // --navBackground: #000;
+//   // --footerColor: #FFF;
+//   // --footerBackground: #FFF;
+//   // --footerAlignment: left;
+
+//      --headerColor:#fff;
+//      --headerBackGround:#fff;
+//      --headerUserProfileColor:#fff;
+//      --headerUserProfileBackground:#fff;
+
+//      --bodyColor:#fff;
+//      --bodyBackground:#fff;
+
+//      --navColor:#fff;
+//      --navMenuHover:#fff;
+//      --navBackground:#fff;
+//      --navSubmenuColor:#fff;
+//      --navSubmenuBackground:#fff;
+//      --navSubmenuHover:#fff;
+
+//      --buttonColor:#fff;
+//      --buttonHover:#fff;
+//      --buttonBackground:#fff;
+//      --activeButtonColor:#fff;
+//      --activeButtonBackground:#fff;
+     
+//      --tableHeaderColor:#fff;
+//      --tableHeaderHover:#fff;
+//      --tableHeaderBackground:#fff;
+    
+//     --tableBodyBackground:#fff;
+//     --tableRowColor:#fff;
+//     --tableRowHover:#fff;
+//     --tableRowActive:#fff;
+
+//     --tableSearchColor:#fff;
+//     --tableSearchBackground:#fff;
+    
+//     --tablePaginationColor:#fff;
+//     --tablepaginationBackground:#fff;
+
+
+
+// }
+
+$variables: (
+  // --cardColor: var(--cardColor),
+  // --cardBackground: var(--cardBackground),
+  // --buttonColor: var(--buttonColor),
+  // --buttonBackground: var(--buttonBackground),
+  // --navColor: var(--navColor),
+  // --navBackground: var(--navBackground),
+  // --footerColor: var(--footerColor),
+  // --footerBackground: var(--footerBackground),
+  // --footerAlignment: var(--footerAlignment)
+
+  --headerColor:var(--headerColor),
+     --headerBackGround:var(--headerBackGround),
+     --headerUserProfileColor:var(--headerUserProfileColor),
+     --headerUserProfileBackground:var(--headerUserProfileBackground),
+     --headerIconColor:var(--headerIconColor),
+     --bodyColor:var(--bodyColor),
+     --bodyBackground:var(--bodyBackground),
+
+     --tabBackground:var(--tabBackground),
+    --tabActiveButtonbackground:var(--tabActiveButtonbackground),
+
+     --navColor:var(--navColor),
+     --navMenuHover:var(--navMenuHover),
+     --navBackground:var(--navBackground),
+     --navSubmenuColor:var(--navSubmenuColor),
+     --navSubmenuBackground:var(--navSubmenuBackground),
+     --navSubmenuHover:var(--navSubmenuHover),
+     --navMenuIconBackground:var(--navMenuIconBackground),
+
+     --buttonColor:var(--buttonColor),
+     --buttonHover:var(--buttonHover),
+     --buttonBackground:var(--buttonBackground),
+     --activeButtonColor:var(--activeButtonColorvar),
+     --activeButtonBackground:var(--activeButtonBackground),
+     
+     
+     --tableHeaderColor:var(--tableHeaderColor),
+     --tableHeaderHover:var(--tableHeaderHover),
+     --tableHeaderBackground:var(--tableHeaderBackground),
+    
+    --tableBodyBackground:var(--tableBodyBackground),
+    --tableRowColor:var(--tableRowColor),
+    --tableRowHover:var(--tableRowHover),
+    --tableRowActive:var(--tableRowActive),
+
+    --tableSearchColor:var(--tableSearchColor),
+    --tableSearchBackground:var(--tableSearchBackground),
+    
+    --tablePaginationColor:var(--tablePaginationColor),
+    --tablepaginationBackground:var(--tablepaginationBackground),
+
+);
+
+@function var($variable) {
+  @return map-get($variables, $variable);
+}
